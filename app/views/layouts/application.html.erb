@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>IT 231 Demo W3CSS</title>
+    <title>E-bookstore</title>
     
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -11,7 +11,7 @@
 
   <body class="w3-container">
 
-    <div class="w3-bar w3-light-grey">
+    <div class="w3-bar w3-blue">
       <a href="/" class="w3-bar-item w3-button w3-border">
         <%= image_tag 'mad-icon.png', alt: 'The Mad Icon', height: '28', width: '28', style: 'display: block; margin-left: auto; margin-right: auto; margin-bottom: none; margin-top: none' %></a>
       <a href="/static_pages/home" class="w3-bar-item w3-button w3-border">Home</a>
@@ -32,6 +32,7 @@
    </div>
 
    <div class="w3-container">
+  
     <%= yield %>
    </div>    
 
